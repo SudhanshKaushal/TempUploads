@@ -1,0 +1,225 @@
+slots:
+ location:
+   type: text
+
+intents:
+ - greet
+ - accommodation_related
+ - talent_acquisition
+ - altran_acquisition
+ - how_to_apply
+ - share_cv_with_hr
+ - members_contact_information
+ - office_phone_no
+ - company_address_gur
+ - hr_contact_information
+ - partership_query
+ - aricent_internal_it
+ - internship_Details
+ - interview_status
+ - aricent_headcount
+ - company_policy
+ - company_presence
+ - company_profile
+ - key_differentiator
+ - confidential_information
+ - investment_related
+ - elt_info
+ - too_specific_info
+ - general_vague_info
+ - out_of_scope
+ - rnts_info
+ - fun_activity
+ - visa_related
+ - sales_team
+ - fraud_report
+ - ex_employee
+ - basic_info
+ - skill_development
+ - epf_info
+ - income_tax_related
+ - company_financial_info
+ - employee_finance_related
+ - employee_verification
+ - goodbye
+ - thanks_signoff 
+ - help
+ - company_establishment
+ - raise_helpdesk_ticket
+ - outsider_payroll
+ - aricent_info_email
+ - outsider_verification
+ 
+entities:
+ - location
+
+templates:
+  utter_signoff:
+    - "Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_out_of_scope:
+    - "Sorry i did not get you. Please re-phrase your sentence Or Click on the following buttons"
+  utter_out_of_scope2:
+    - "Oh Sorry i did not get you. Following are the Areas where I can Assit you<BR></BR> <BR> 1. Problem Resolution (Example Type :: I am facing issue in HSS) </BR> <BR>2. Case Status Information (Example Type :: What is status of HSS Case number 12345)</BR> <BR> 3. Production Information (Example Type :: Hardware requirements for HSS 6.0) </BR><BR> 4. Product Deployment (Example Type :: Can you please deploy HSS 6.0 to /tmp) </BR> <BR>5. Product Configuration (Example Type :: Configure imsi) </BR> "
+  utter_thanks_signoff:
+    - "You are Welcome. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_greet:
+    - "Hello, How Can I Help you today ?"
+  utter_welcome:
+    - "Welcome, How are you ?"
+  utter_updated_slots:
+    - "Okay, Updated!"
+  utter_help:
+    - " Following are the Supported Queries by Aricent Assit<BR></BR> <BR> 1. Similar Defect Information (Example Type :: I am facing issue in HSS) </BR> <BR>2. Case Status Information (Example Type :: What is status of HSS Case number 12345)</BR> <BR> 3. Production Information (Example Type :: Hardware requirements for HSS 6.0) </BR><BR> 4. Product Deployment (Example Type :: Can you please deploy HSS 6.0 to /tmp) </BR> <BR>5. Product Configuration (Example Type :: Configure imsi) </BR> <BR> For More Details Click the Help link above </BR>"
+  utter_aricent_contact_details:
+    - "Tower 4(gf floor)"
+  utter_human_resource:
+    - "please drop your mail at hr@aricent.com. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_aricent_info_email:
+    - "Please send information to info@aricent.com and our team will contact you. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_career_link:
+    - "Thank you for your interest in Aricent, please visit https://career10.successfactors.com/career?company=C0002723615P&site=&lang=en_GB section on our website for current openings and directly apply for the available opportunity. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_global_news_link:
+    - "Aricent acquisition was announced via a press release. You can read the detailed press release on this link  https://globenewswire.com/news-release/2017/11/30/1211676/0/en/ALTRAN-TECHNOLOGIES-Altran-Group-acquires-Aricent-and-creates-the-undisputed-global-leader-in-Engineering-and-R-D-services.html.We cannot share any additional information to what was mentioned in the press release. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_career_email:
+    - "Thanks for your interest in Aricent, please mark an email to  careers@aricent.com with your updated resume and someone from HR will reach out to you as per requirement/vacany."
+  utter_partners_link: 
+    - "Please visit the Partners page for more information - https://www.aricent.com/about/partners. Thanks for Contacting Aricent Support. Have a great Day !!!" 
+  utter_itac_email:
+    - "Pls send email to itac@aricent.com. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_gurgaon_address:
+    - "Tower 4 & 5, Sohna Road, Sector 48, Gurgaon - 122001, Candoor Info Space Tikri. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_hr_info_email:
+    - "Please mail to hr@aricent.com. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_talentacquisition_email:
+    - "Please mark your query to TalentAcquisition@aricent.com Aricent maintains a Talent Pool and you will be contacted as per requirement. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_leave_email_getback:
+    - "Thank you for reaching out to us. Please provide the details in format: Name \nPh# \nDate of Interview \nInterview Location and mail it to hr@aricent.com"
+  utter_aricent_headcount:
+    - "Aricent has global strength of 12000+ employees. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_company_establishment:
+    - "Aricent is 25-year-old company, established as Hughes Software Systems in 1991 and later renamed as Aricent in 2006. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_company_financial_info:
+    - "Pls check out http://home.intra.aricent.com/Pages/Announcements.aspx Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_company_policy_link:
+    - "Aricent is a global design and engineering company innovating for the digital era. With more than 25 years experience and over 12,000 designers and engineers, we help the worlds leading companies solve their business and technology challenges - from customer to chip. Key investors are KKR & Co. LP and Sequoia Capital.\nFor detailed overview please  visit: https://www.aricent.com/about/overview\n\n. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_company_presence:
+    - "You can refer the link: https://www.aricent.com/about/contact-us. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_company_profile:
+    - "Aricent is a global design and engineering company innovating for the digital era. With more than 25 years experience and over 12,000 designers and engineers, we help the world leading companies solve their business and technology challenges from customer to chip. Key investors are KKR & Co. LP and Sequoia Capital.,For detailed overview please visit: https://www.aricent.com/about/overview. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_key_differentiator:
+    - "Aricent is a global design and engineering company innovating for the digital era, with more than 25 years experience and over 12,000 designers and engineers. We help clients meet customer experience expectations in human-machine interfaces, hyper-scale performance and faster innovation cycles by designing and engineering cloud-ready products, platforms and services. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_confidential_information:
+    - "This information is confidential. Since we are a private company we cannot divulge this information. May I help you with any other information?"
+  utter_investment_related:
+    - "Thank you for reaching out to us. Please write to investor.relations@aricent.com"
+  utter_elt_info:
+    - "Frank Kern, CEO (Redwood City, California),Harmeet Chauhan -President, Service Lines and Chief Strategy Officer, Scott Houghton -President, Semiconductor and Industrial Business,Glenn Hoogerwerf-President, Enterprise Software and Consumer Business,Dietmar Wendt- President, Communications and Technology Systems Business,Eric Johnson-Chief Financial Officer (New York, New York),Walid Negm - Chief Technology Officer (Washington, DC ),Harry West CEO, frog (Boston, Massachusetts),Camie Shelmire- Chief Client Officer and Chief People Officer. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_epf_info:
+    - "Please mark an email to PF@aricent.com. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_fraud_report_link:
+    - "Please mark your queries to  Security Teams email. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_fun_activity:
+    - "Please contact hr@aricent.com. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_too_specific_info:
+    - "This is not the correct forum to answer such specific details. Please reach out to us at info@aricent.com for further queries. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_skill_development_email:
+    - "Please mark your query to TalentAcquisition@aricent.com. We have certification course for immediate family members of our employees. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_visa_related_link:
+    - "Please mark your queries to marketing@aricent.com. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_ex_employee_email:
+    - "Please provide the details in format: Name/Ph#/ Ex Employee Id/ Year/ Location and mail it to hr@aricent.com. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_rnts_info:
+    - "This is not the correct forum to answer such specific details. Please reach out to us at info@aricent.com for further queries. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_general_vague_info:
+    - " general vague message [not covered yet !!] "
+  utter_raise_helpdesk_ticket:
+    - " Please raise a ticket in helpdesk. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_outsider_payroll:
+    - " Please mark your queries to payrollhelpdesk@aricent.com. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_outsider_verification:
+    - " Please drop a mail at employee_verification@aricent.com. Thanks for Contacting Aricent Support. Have a great Day !!!"
+  utter_income_tax_related:
+    - text: "Are you a current employee with aricent?"
+      buttons:
+      - title: "Yes"
+        payload: "need to raise a ticket in helpdesk ticket" <!-- intent:raise_helpdesk_ticket -->
+      - title: "No"
+        payload: "Please mark your queries to payrollhelpdesk@aricent.com" <!-- intent:outsider_payroll -->
+  utter_ask_team:
+    - text: "Please specify the Function Team you want to contact?"
+      buttons:
+      - title: "HR Team"
+        payload: "how to get in touch with the HR team" <!-- intent:hr_contact_information -->
+      - title: "Finance Team"
+        payload: "When the final settlement of salary  will be done?" <!-- intent:employee_finance_related -->
+      - title: "IT Team"
+        payload: "share contact details for IT support" <!-- intent:aricent_internal_it -->
+      - title: "Sales Team"
+        payload: "how to contact your sales team?" <!-- intent:sales_team -->
+  utter_company_address:
+    - " Please find the list of locations mentioned on the provided link: https://www.aricent.com/about/contact-us. Thanks for Contacting Aricent Support. Have a great Day !!!" 
+  utter_employee_verification:
+    - text: "Are you a current employee with aricent?"
+      buttons:
+      - title: "No"
+        payload: "Please drop a mail at employee_verification@aricent.com" <!-- intent:outsider_verification -->
+      - title: "Yes"
+        payload: "Please send information to info@aricent.com" <!-- intent:aricent_info_email -->
+  utter_employee_finance_related:
+    - text: "Are you a current employee with aricent?"
+      buttons:
+      - title: "Yes"
+        payload: "how to get in touch with the HR team" <!-- intent:hr_contact_information -->
+      - title: "No"
+        payload: "Please mark your queries to payrollhelpdesk@aricent.com" <!-- intent:outsider_payroll -->
+  utter_sales_team_link:
+    - "Please contact our marketing team at marketing@aricent.com Or please fill in the contact us form - https://www.aricent.com/about/contact-us and we will get back to you. Thanks for Contacting Aricent Support. Have a great Day !!!"
+actions:
+  - utter_greet
+  - utter_welcome
+  - utter_human_resource
+  - utter_help
+  - utter_updated_slots
+  - utter_signoff
+  - utter_itac_email
+  - utter_out_of_scope
+  - utter_thanks_signoff
+  - utter_aricent_info_email
+  - utter_career_link
+  - utter_partners_link
+  - utter_global_news_link
+  - utter_career_email
+  - utter_gurgaon_address
+  - utter_hr_info_email
+  - utter_talentacquisition_email
+  - utter_leave_email_getback
+  - utter_aricent_contact_details
+  - actions.HeadOfficeAddress
+  - utter_aricent_headcount
+  - utter_company_establishment
+  - utter_company_financial_info
+  - utter_company_policy_link
+  - utter_company_presence 
+  - utter_company_profile
+  - utter_key_differentiator
+  - utter_confidential_information
+  - utter_investment_related
+  - utter_elt_info
+  - utter_employee_verification
+  - utter_epf_info
+  - utter_employee_finance_related
+  - utter_fraud_report_link
+  - utter_fun_activity
+  - utter_too_specific_info
+  - utter_income_tax_related
+  - utter_skill_development_email
+  - utter_visa_related_link
+  - utter_ex_employee_email
+  - utter_rnts_info
+  - utter_general_vague_info
+  - utter_ask_team
+  - utter_company_address
+  - utter_sales_team_link
+  - utter_raise_helpdesk_ticket
+  - utter_outsider_payroll
+  - utter_outsider_verification
